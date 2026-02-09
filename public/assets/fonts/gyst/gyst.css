@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-BoldItalic.woff2') format('woff2'),
+        url('Gyst-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-Italic.woff2') format('woff2'),
+        url('Gyst-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-Medium.woff2') format('woff2'),
+        url('Gyst-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-LightItalic.woff2') format('woff2'),
+        url('Gyst-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-MediumItalic.woff2') format('woff2'),
+        url('Gyst-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-Light.woff2') format('woff2'),
+        url('Gyst-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-Bold.woff2') format('woff2'),
+        url('Gyst-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gyst';
+    src: url('Gyst-Regular.woff2') format('woff2'),
+        url('Gyst-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
