@@ -23,12 +23,12 @@
   <meta name="twitter:description" content="Practice government exams with real-exam mock tests. Check your score, analyze results, and boost confidence before the actual exam.">
   <meta name="twitter:image" content="https://www.testhone.com/images/twitter-card.jpg"> -->
 
-  <link rel='icon' type='image/x-icon' href='../assets/img/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='img/favicon.ico'>
 
-  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/fonts/poppins/poppins.css">
-  <link rel="stylesheet" href="../assets/fonts/gyst/gyst.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/poppins/poppins.css">
+  <link rel="stylesheet" href="fonts/gyst/gyst.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -75,6 +75,7 @@
             </div>
 
             <div class="d-flex align-center gap-3">
+                <!-- Search Bar start -->
                 <div>
                      <div class='control'>
                         <div class='btn-material'></div>
@@ -104,6 +105,8 @@
                         </div>
                     </div>
                 </div>
+<!-- Search Bar end -->
+
                 <form class="d-flex m-0 gap-2">
                     <a class="btn btn-sm btn-secondary" href="<?php echo base_url('/login'); ?>" >Login</a>
                     <a class="btn btn-sm btn-outline-secondary" href="<?php echo base_url('/register'); ?>">Sign up</a>
@@ -726,8 +729,8 @@
         </section>
     </main>
 
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script>
         $('.control').click( function(){
             $('body').addClass('search-active');
